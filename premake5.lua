@@ -13,9 +13,9 @@ workspace "opengl_cpp"
 output_dir = "%{cfg.buildcfg}-%{cfg.system}"
 
 include_dirs = {}
-include_dirs["glfw"]   = "%{wks.location}/lib/glfw/include"
-include_dirs["glad"]   = "%{wks.location}/lib/glad/include"
-include_dirs["glm"]    = "%{wks.location}/lib/glm"
+include_dirs["glfw"]       = "%{wks.location}/lib/glfw/include"
+include_dirs["glad"]       = "%{wks.location}/lib/glad/include"
+include_dirs["glm"]        = "%{wks.location}/lib/glm"
 include_dirs["opengl_cpp"] = "%{wks.location}/src"
 
 include "lib/glfw"
