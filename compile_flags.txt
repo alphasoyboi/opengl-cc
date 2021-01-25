@@ -1,0 +1,4 @@
+-Ilib/glfw/include
+-Ilib/glad/include
+-Isrc/
+-std=c99
